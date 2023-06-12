@@ -54,7 +54,8 @@ namespace Task_5
 
                         case 'D':
                         case 'd':
-                     
+                            GetDetailsForDepositWithdrawl(ref ruppinBank, false);
+                            break;
                         case 'W':
                         case 'w':
                             GetDetailsForDepositWithdrawl(ref ruppinBank, true);
